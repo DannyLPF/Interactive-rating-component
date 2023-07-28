@@ -71,7 +71,7 @@ body {
     height: 100vh;
     font-family: var(--ff-overpass);
     font-size: var(--fs-400);
-    background-color: black;
+    background-color: hsl(var(--clr-very-dark-blue));
     color: hsl(var(--clr-White));
 }
 
@@ -105,7 +105,7 @@ button {
 
 .container {
     padding: 2rem;
-    background-color: hsl(var(--clr-very-dark-blue));
+    background-color: hsl(var(--clr-dark-blue));
     padding-inline: 2em;
     border-radius: 6%;
     margin-inline: auto;
@@ -154,7 +154,7 @@ button {
 /* ------------------- */
 .rating-button,
 .icon {
-    background-color: hsl(var(--clr-dark-blue));
+    background-color: hsl(var(--clr-medium-grey));
     color: hsl(var(--clr-White));
     place-items: center;
     padding: 0 1em;
